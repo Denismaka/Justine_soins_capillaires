@@ -56,5 +56,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// Fermer la connexion (optionnel avec PDO, car cela se fait automatiquement à la fin du script)
+// Fermertur de  la conexion (optionnel avec PDO car cla se ft automatiquement à la fin du script)
 $db = null;
