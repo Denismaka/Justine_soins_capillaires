@@ -1,0 +1,12 @@
+{
+    "name": "denis-maka/assets",
+    "description": "Un projet pour gérer les soins capillaires",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "authors": [
+        {
+            "name": "Denismaka"
+        }
+    ]
+}
