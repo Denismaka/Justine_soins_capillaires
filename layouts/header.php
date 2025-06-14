@@ -110,7 +110,7 @@ if (isset($_SESSION['user_id']) && $_SESSION['grade'] == 1) {
             }
 
             .nav-link:hover {
-                color: var(--orange) !important;
+                color: #DC3545 !important;
             }
 
             .navbar-brand {
