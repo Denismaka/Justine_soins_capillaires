@@ -145,6 +145,9 @@ include('layouts/header.php');
 </head>
 
 <body>
+    <!-- ############## -->
+    <!-- Blogsingle -->
+    <!-- ############## -->
     <section class="blog-section">
         <div class="container">
             <h1 class="blog-title">Inspirations du Blog</h1>
@@ -231,7 +234,7 @@ include('layouts/header.php');
         </div>
     </section>
 
-    <!-- Bootstrap JS Bundle with Popper -->
+
     <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
