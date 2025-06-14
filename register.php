@@ -4,7 +4,8 @@ require('layouts/header.php');
 require('functions/register.func.php');
 
 if (isset($message)) {
-    echo '<div class="alert alert-' . ($error ? 'danger' : 'success') . ' text-center mb-0">' . $message . '</div>';
+    $error = null;
+    echo '<div class="alert alert-' . ($error ? 'danger' : 'success') . ' text-center mt-5">' . $message . '</div>';
 }
 ?>
 
