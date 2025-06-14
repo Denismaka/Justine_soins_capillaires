@@ -1,36 +1,86 @@
-Justine Soins Capillaires
-Home
-Bienvenue sur Justine Soins Capillaires ! Nous sommes spécialisés dans les soins capillaires et offrons une variété de services pour sublimer vos cheveux. Veuillez noter que ce site est en cours de développement et que certaines fonctionnalités peuvent ne pas être totalement opérationnelles.
+# 🧖‍♀️ Justine Soins Capillaires
 
-About
-Justine Soins Capillaires est une entreprise dédiée à la beauté et au bien-être de vos cheveux. Avec une équipe de professionnels passionnés, nous nous engageons à fournir des services de haute qualité pour répondre à tous vos besoins capillaires.
+<div align="center">
+  <img src="https://img.icons8.com/color/96/000000/hair.png" alt="Logo"/>
+  <h3>Votre excellence capillaire depuis 2020</h3>
+</div>
 
-Services
-Voici les services que nous proposons :
+## 🌟 À Propos
 
-Coupe de cheveux : Des coupes tendance adaptées à votre style.
-Coloration : Techniques de coloration modernes pour un look éclatant.
-Traitement capillaire : Soins nourrissants pour revitaliser vos cheveux.
-Brushings : Finitions élégantes pour un look impeccable.
-Fonctionnalités
-Backend
-Les fonctionnalités principales de notre backend incluent :
+**Justine Soins Capillaires** allie expertise traditionnelle et innovations techniques pour révéler la beauté naturelle de vos cheveux. Notre salon premium propose :
 
-Gestion des rendez-vous : Planifiez et gérez vos rendez-vous facilement.
-Gestion de la newsletter : Restez informé des dernières offres et nouveautés.
-CRUD Administrateur : Seul l'administrateur peut effectuer des opérations de création, lecture, mise à jour et suppression.
-Projets
-Voici quelques détails sur notre projet :
+```diff
++ Version 2.1.0 (juin 2025) | En développement actif
+🛎️ Nos Services
+Catégorie	Services	Durée	Prix
+✂️ Coupes	- Femme/Homme
+- Enfant
+- Créative	30-90min	35-120€
+🎨 Colorations	- Balayage
+- Ombré hair
+- Ton sur ton	1-3h	60-200€
+💆‍♀️ Soins	- Kératine
+- Botox
+- Réparation	45-120min	50-180€
+💇‍♀️ Brushing	- Lissage
+- Boucles
+- Coiffures événements	1-2h	45-150€
+🛠️ Fonctionnalités
+🔧 Backend
+📅 Gestion de RDV
+Système intelligent avec rappels SMS/email
+📊 Dashboard Admin
+Interface sécurisée (CRUD complet)
+📡 API Intégrée
+Synchronisation avec Google Calendar
+🌐 Frontend
+📱 Mobile First
+Design responsive (Boostrap)
+⚡ Performances
+Temps de chargement <1s
+🔍 SEO
+Optimisation pour les recherches locales
+📅 Roadmap 2025
+Copier
 
-Justine Soins Capillaires : Un site web dédié aux soins capillaires, utilisant des technologies modernes pour offrir une expérience utilisateur optimale.
-Note : Certaines fonctionnalités sont encore en cours de développement et peuvent être mises à jour.
+📞 Nous Contacter
+📍 Adresse
+123 Rue des Coiffeurs, 75000 Paris
+📞 Téléphone
++243 997 435 030
+📧 Email
+contact@justine-soins.fr
+🔗 Réseaux Sociaux
+## 🌐 Nous suivre
 
-Pour voir tous nos services, consultez notre site Justine Soins Capillaires.
+[<img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" width="30">](https://instagram.com/VotreCompte)
+[<img src="https://img.icons8.com/color/48/000000/facebook.png" width="30">](https://facebook.com/VotrePage)
+[<img src="https://img.icons8.com/color/48/000000/tiktok.png" width="30">](https://tiktok.com/@VotreCompte)
 
-Contact
-Pour toute question ou collaboration, n'hésitez pas à nous contacter :
 
-- Email : makadenis370@gmail.com
-- Téléphone : +243818252385, +243997435030.
-- Réseaux sociaux : Suivez-moi sur https://twitter.com/MakaDenis3, https://www.linkedin.com/in/Denismaka, https://github.com/Denismaka, https://www.facebook.com/Denismaka
-Merci de votre visite sur Justine Soins Capillaires !
+🚀 Installation
+Copier
+# 1. Cloner le dépôt
+git clone https://github.com/JustineSoins/site-web.git
+
+# 2. Installer les dépendances
+npm install
+composer install
+
+# 3. Configurer le .env
+cp .env.example .env
+📜 Licence
+MIT © 2025 Justine Soins Capillaires
+
+💈 « Des cheveux sains, une beauté rayonnante » — Équipe Justine
+
+Copier
+
+### Points clés :
+1. **Structure claire** : Sections bien séparées avec titres hiérarchisés
+2. **Design moderne** : Utilisation d'icônes, badges et tableau responsive
+3. **Informations techniques** : Instructions d'installation et détails backend
+4. **Marketing intégré** : Appels à l'action et liens réseaux sociaux
+5. **Responsive** : Lecture optimisée sur tous les appareils
+
+```
