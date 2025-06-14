@@ -1,62 +1,64 @@
 <!-- ############## -->
-<!-- Footer -->
+<!-- footer -->
 <!-- ############## -->
+<footer class="footer py-4 bg-dark text-white" id="footer">
+    <div class="container">
+        <div class="row mt-md-5">
+            <!-- colonne Adresse -->
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                <h5 class="text-danger fw-bold mb-3">Justine soins capillaires</h5>
+                <address>
+                    Rue de yolo n°7259, B.P. 1248 LIMETE KINSHASA,<br>
+                    REPUBLIQUE DEMOCRATIQUE DU CONGO.
+                </address>
+                <p class="mt-2">
+                    <i class="fas fa-phone me-2"></i> +243 997435030<br>
+                    <i class="fas fa-envelope me-2"></i> justinesoinscapillaires@gmail.com
+                </p>
+            </div>
+            <!-- colonne Liens -->
+            <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                <h5 class="text-danger fw-bold mb-3">Liens</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#home" class="text-white text-decoration-none hover-orange">Accueil</a></li>
+                    <li class="mb-2"><a href="#about" class="text-white text-decoration-none hover-orange">À propos</a></li>
+                    <li class="mb-2"><a href="#services" class="text-white text-decoration-none hover-orange">Services</a></li>
+                    <li class="mb-2"><a href="#galeries" class="text-white text-decoration-none hover-orange">Galerie</a></li>
+                </ul>
+            </div>
+            <!-- colonne Services -->
+            <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                <h5 class="text-danger fw-bold mb-3">Nos Services</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="noservices.php" class="text-white text-decoration-none hover-orange">Décoration</a></li>
+                    <li class="mb-2"><a href="noservices.php" class="text-white text-decoration-none hover-orange">Tresses</a></li>
+                    <li class="mb-2"><a href="noservices.php" class="text-white text-decoration-none hover-orange">Make up</a></li>
+                    <li class="mb-2"><a href="noservices.php" class="text-white text-decoration-none hover-orange">Habillage</a></li>
+                </ul>
+            </div>
+            <!-- colonne Newsletter -->
+            <div class="col-md-6 col-lg-5">
+                <h5 class="text-danger fw-bold mb-3">Notre Newsletter</h5>
+                <p>
+                    Restez informé des dernières innovations en soins capillaires avec notre newsletter.
+                </p>
+                <?php include('newsletter.php') ?>
+            </div>
+        </div>
 
-<footer class="footer py-4" id="footer">
-  <div class="container">
-    <div class="row mt-5">
-      <div class="col-md-3">
-        <h5>Justine soins capillaires</h5>
-        <p>
-          Rue de yolo n°7259, B.P. 1248 LIMETE KINSHASA, REPUBLIQUE DEMOCRATIQUE
-          DU CONGO.
-        </p>
-        <p>
-          Phone: +243 997435030<br />
-          Email: justinesoinscapillaires@gmail.com
-        </p>
-      </div>
-      <div class="col-md-3">
-        <h5>Liens</h5>
-        <ul class="box">
-          <li><a href="#home">home</a></li>
-          <li><a href="#about">a propos</a></li>
-          <li><a href="#services">services</a></li>
-          <li><a href="#galeries">galerie</a></li>
-          <li><a href="#témoignages">témoignages</a></li>
-          <li><a href="#blog">blog</a></li>
-          <li><a href="#rendez-vous">rendez-vous</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h5>Nos Services</h5>
-        <ul class="box">
-          <li><a href="noservices.php">décoration</a></li>
-          <li><a href="noservices.php">tresses</a></li>
-          <li><a href="noservices.php">make up</a></li>
-          <li><a href="noservices.php">habillage</a></li>
-          <li><a href="politique.php">politique</a></li>
-          <li><a href="#">Et autres...</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h5>Notre Newsletter</h5>
-        <p>
-          Bienvenue à la Newsletter <br />
-          Rester informé des dernières nouvelles et innovations de soins
-          capillaires avec notre newsletter
-        </p>
-        <?php include('newsletter.php') ?>
-      </div>
-      <div class="socials-icons">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-      </div>
+        <!-- icônes sociales -->
+        <div class="d-flex justify-content-center justify-content-md-start mt-4">
+            <div class="socials-icons d-flex">
+                <a href="#" class="d-flex align-items-center justify-content-center bg-danger text-white rounded-circle me-3 hover-orange"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center bg-danger text-white rounded-circle me-3 hover-orange"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center bg-danger text-white rounded-circle me-3 hover-orange"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center bg-danger text-white rounded-circle hover-orange"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="text-center mt-4 pt-3 border-top border-secondary">
+            <p class="mb-0">&copy; <span id="current-year">2025</span> Copyright <a href="#" class="text-danger text-decoration-none hover-orange">Denis Maka</a>. Tous droits réservés</p>
+        </div>
     </div>
-    <div class="Copyright mt-4 text-center">
-      <p>&copy; Copyright <a href="#">Denis Maka</a>. Tous droits réservés</p>
-    </div>
-  </div>
 </footer>
