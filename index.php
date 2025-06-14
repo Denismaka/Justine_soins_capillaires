@@ -60,14 +60,14 @@ include('functions/index.func.php');
                 <div class="card border-0 bg-transparent h-100">
                     <img src="assets/images/Soins capillaires/soins1.jpg" class="card-img-top rounded" alt="Service">
                     <div class="card-body text-center">
-                        <span class="text-warning fw-bold fs-4">50$</span>
+                        <span class="text-warning fw-bold fs-4">75$</span>
                         <h5 class="text-white mt-2">Brushing</h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card border-0 bg-transparent h-100">
-                    <img src="assets/images/Soins capillaires/soins1.jpg" class="card-img-top rounded" alt="Service">
+                    <img src="assets/images/Soins capillaires/soins2.jpg" class="card-img-top rounded" alt="Service">
                     <div class="card-body text-center">
                         <span class="text-warning fw-bold fs-4">50$</span>
                         <h5 class="text-white mt-2">Brushing</h5>
@@ -76,14 +76,13 @@ include('functions/index.func.php');
             </div>
             <div class="col-md-4">
                 <div class="card border-0 bg-transparent h-100">
-                    <img src="assets/images/Soins capillaires/soins1.jpg" class="card-img-top rounded" alt="Service">
+                    <img src="assets/images/Soins capillaires/soins3.jpg" class="card-img-top rounded" alt="Service">
                     <div class="card-body text-center">
-                        <span class="text-warning fw-bold fs-4">50$</span>
+                        <span class="text-warning fw-bold fs-4">25$</span>
                         <h5 class="text-white mt-2">Brushing</h5>
                     </div>
                 </div>
             </div>
-            <!-- Répéter pour les autres services -->
         </div>
         <div class="text-center mt-5">
             <a href="soins.php" class="btn btn-outline-danger px-4 py-2">En savoir plus</a>
@@ -104,15 +103,14 @@ include('functions/index.func.php');
                 <img src="assets/images/Inspirations visuelles/iv1.jpg" class="img-fluid rounded shadow" alt="Galerie">
             </div>
             <div class="col-6 col-md-3">
-                <img src="assets/images/Inspirations visuelles/iv1.jpg" class="img-fluid rounded shadow" alt="Galerie">
+                <img src="assets/images/Inspirations visuelles/iv2.jpg" class="img-fluid rounded shadow" alt="Galerie">
             </div>
             <div class="col-6 col-md-3">
-                <img src="assets/images/Inspirations visuelles/iv1.jpg" class="img-fluid rounded shadow" alt="Galerie">
+                <img src="assets/images/Inspirations visuelles/iv3.jpg" class="img-fluid rounded shadow" alt="Galerie">
             </div>
             <div class="col-6 col-md-3">
-                <img src="assets/images/Inspirations visuelles/iv1.jpg" class="img-fluid rounded shadow" alt="Galerie">
+                <img src="assets/images/Inspirations visuelles/ivA.jpg" class="img-fluid rounded shadow" alt="Galerie">
             </div>
-            <!-- Répéter pour les autres images -->
         </div>
         <div class="text-center mt-4">
             <a href="inspirvisuelle.php" class="btn btn-danger px-4 py-2">Voir plus</a>
@@ -149,7 +147,7 @@ include('functions/index.func.php');
             <div class="col-md-4">
                 <div class="card bg-dark text-white p-3 h-100">
                     <div class="d-flex align-items-center mb-3">
-                        <img src="assets/images/Reviews/avis-01.jpg" class="rounded-circle me-3" width="60" alt="Client">
+                        <img src="assets/images/Reviews/avis-02.jpg" class="rounded-circle me-3" width="60" alt="Client">
                         <h5 class="mb-0">Charlotte A</h5>
                     </div>
                     <p class="mb-4">Je suis ravie de ma dernière visite chez JSC!</p>
@@ -165,7 +163,7 @@ include('functions/index.func.php');
             <div class="col-md-4">
                 <div class="card bg-dark text-white p-3 h-100">
                     <div class="d-flex align-items-center mb-3">
-                        <img src="assets/images/Reviews/avis-01.jpg" class="rounded-circle me-3" width="60" alt="Client">
+                        <img src="assets/images/Reviews/avis-03.jpg" class="rounded-circle me-3" width="60" alt="Client">
                         <h5 class="mb-0">Charlotte A</h5>
                     </div>
                     <p class="mb-4">Je suis ravie de ma dernière visite chez JSC!</p>
@@ -178,7 +176,6 @@ include('functions/index.func.php');
                     </div>
                 </div>
             </div>
-            <!-- Répéter pour les autres témoignages -->
         </div>
     </div>
 </section>
@@ -204,7 +201,7 @@ include('functions/index.func.php');
             </div>
             <div class="col-md-4">
                 <div class="card border-0 bg-transparent overflow-hidden">
-                    <img src="assets/images/Blog/1.jpg" class="card-img-top" alt="Blog">
+                    <img src="assets/images/Blog/2.jpg" class="card-img-top" alt="Blog">
                     <div class="card-img-overlay bg-dark bg-opacity-75 d-flex flex-column justify-content-center text-center">
                         <h4 class="text-white">Tissage</h4>
                         <a href="blog.php" class="text-danger mt-2"><i class="fas fa-external-link-alt fa-2x"></i></a>
@@ -213,14 +210,13 @@ include('functions/index.func.php');
             </div>
             <div class="col-md-4">
                 <div class="card border-0 bg-transparent overflow-hidden">
-                    <img src="assets/images/Blog/1.jpg" class="card-img-top" alt="Blog">
+                    <img src="assets/images/Blog/3.jpg" class="card-img-top" alt="Blog">
                     <div class="card-img-overlay bg-dark bg-opacity-75 d-flex flex-column justify-content-center text-center">
                         <h4 class="text-white">Tissage</h4>
                         <a href="blog.php" class="text-danger mt-2"><i class="fas fa-external-link-alt fa-2x"></i></a>
                     </div>
                 </div>
             </div>
-            <!-- Répéter pour les autres articles -->
         </div>
     </div>
 </section>
