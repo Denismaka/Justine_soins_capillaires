@@ -29,7 +29,8 @@ if (isset($_POST['submit'])) { // Teste si le formulaire est soumis
 }
 
 // La fonction qui permet de vérifier si l'email a déjà été utilisé
-function email_taken($email) {
+function email_taken($email)
+{
     global $db;
 
     $e = ['email' => $email]; // Changer 'email_user' en 'email'
@@ -42,7 +43,8 @@ function email_taken($email) {
 }
 
 // La fonction qui permet à l'utilisateur de prendre rendez-vous
-function userRegister($nom, $prenom, $email, $number, $date) {
+function userRegister($nom, $prenom, $email, $number, $date)
+{
     global $db;
     $sql = "INSERT INTO clients(nom, prenom, email, tel, date_heure) 
     VALUES(:nom, :prenom, :email, :tel, :date_heure)"; // Changer les noms des colonnes
@@ -55,7 +57,7 @@ function userRegister($nom, $prenom, $email, $number, $date) {
         'tel'        => $number, // Changer 'tel_user' en 'tel'
         'date_heure' => $date, // Changer 'date_heure' si nécessaire
     ];
-    
+
     try {
         $req->execute($c);
     } catch (PDOException $e) {
@@ -65,4 +67,3 @@ function userRegister($nom, $prenom, $email, $number, $date) {
 
 // Afficher le message après le traitement du formulaire
 echo isset($message) ? $message : '';
-?>
