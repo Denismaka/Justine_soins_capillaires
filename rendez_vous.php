@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 include('functions/db.php');
 include('layouts/header.php');
 include('functions/rendez_vous.func.php');
@@ -85,9 +85,12 @@ include('functions/rendez_vous.func.php');
                             id="service"
                             name="service"
                             class="form-select bg-secondary border-0 py-3 text-white">
-                            <option value="consultation">Consultation initiale</option>
-                            <option value="suivi">Suivi médical</option>
-                            <option value="urgence">Urgence</option>
+                            <option value="consultation">soins initiale</option>
+                            <option value="suivi">Coupe de Cheveux</option>
+                            <option value="urgence">Coloration Professionnelle</option>
+                            <option value="urgence">Traitement Capillaire</option>
+                            <option value="urgence">Brushing Professionnel</option>
+                            <option value="urgence">Autres...</option>
                         </select>
                     </div>
 
