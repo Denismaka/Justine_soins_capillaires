@@ -16,9 +16,9 @@ if (isset($_SESSION['user_id']) && $_SESSION['grade'] == 1) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justine soins capillaires (JSC)</title>
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/fonts/css/all.min.css" />
-    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css" />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -129,18 +129,3 @@ if (isset($_SESSION['user_id']) && $_SESSION['grade'] == 1) {
             }
         </style>
     </header>
-
-    <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Effet de rétrécissement du navbar au scroll
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 50) {
-                document.querySelector('.navbar').classList.add('scrolled');
-            } else {
-                document.querySelector('.navbar').classList.remove('scrolled');
-            }
-        });
-    </script>
-</body>
-
-</html>
